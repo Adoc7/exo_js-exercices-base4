@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Quiz</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+      <script src="./bootstrap-3.3.7-dist/jquery.js"></script>
+    </head>
+    <body>
+<main>
+  <header>
+   <div class="container1">
+     <div class="row">
+      <div class=".col-xs-4 .col-sm-6 .col-md-8">
+        <h1>Welcome to my Quiz</h1>
+          <h2 id='quest'>Question : </h2>
+          <button id="prop_1">1/ </button>
+          </br>
+          <button  id="prop_2">2/ </button>
+          </br>
+          <button id="prop_3">3/ </button>
+          </br>
+          <button id="prop_4">4/ </button>
+          </br>
+          <p id="soluce"> Solution : </p>
+      </div>
+    </div>
+  </div>
+  <!-- Initialiser la première question et les 4 propositions -->
+      <div>
+            <button onclick="clic_prec" id="bt_prec"> Précédent </button>
+            <!-- placer une boucle qui incrémente de 1
+            et affiche les 4 questions suivantes du tableau -->
+            <button onclick="clic_suiv"  id="bt_suiv"> Suivant </button>
+            <!-- placer une boucle qui décrémente de 1
+            et affiche la question et les 4 propositions
+            précédentes du tableau -->
+      </div>
+  </header>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
